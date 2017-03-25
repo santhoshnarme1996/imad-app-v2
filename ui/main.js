@@ -14,4 +14,6 @@ button.onClick = function() {
             }
         }
     };
+    request.open('GET', 'http://santhoshnarme1996.imad.hasura-app.io/counter', true);
+    request.send(null);
 };
